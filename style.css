@@ -9,7 +9,7 @@
 }
 
 .wrapper1{
-  padding-top: 2%;
+  padding: 0;
   background-image: url(images/background1.jpg);
   /* background-repeat: no-repeat; */
   /* background-position: center; */
@@ -48,6 +48,36 @@
   width: 60%;
   width: 60%;
   padding: 1% !important;
+
+}
+.logo-nav{
+  display: flex;
+  flex-grow: 5;
+}
+.logo{
+  width: 40%;
+  height:40%;
+}
+.navig{
+  display: flex;
+  padding: 0;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  background-color: white;
+  align-items: center;
+  grid-gap: 1%;
+}
+.navig a{
+  text-decoration: none;
+ font-family: 'Poppins', sans-serif;
+ font-style: normal;
+ font-weight: 500;
+ font-size: 15px;
+ line-height: 20px;
+ color: #344563;
+ align-items: center;
+ text-align: center;
 
 }
 .hamburger{

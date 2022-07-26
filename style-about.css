@@ -42,8 +42,8 @@
 #h1, #h3{
   color: #EC5242;
 }
-#para{
-  background-color: #D3D3D3;
+p{
+  margin: 0;
 }
 /* not show the nav in mobile */
 @media screen and (max-width: 768px) {
@@ -154,9 +154,6 @@
 .speaker-img{
   width:7em;
   height: 7em;
-}
-.wrapper4{
-  background-color: gray;
 }
 /* desktop */
 @media screen and (min-width: 768px) {

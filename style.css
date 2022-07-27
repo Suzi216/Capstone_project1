@@ -57,6 +57,9 @@
   .navig a{
     display: none;
   }
+  .wrapper4{
+    display: none;
+  }
 }
 
 .navig{
@@ -69,6 +72,7 @@
 }
 .text{
   text-align: center;
+  padding-top: 5%;
   padding-bottom: 2%;
 }
 .line {
@@ -135,7 +139,7 @@
   border: none;
 }
 .wrapper3{
-  padding: 5%;
+  /* padding: 1%; */
 }
 .speakers{
   display: flex;
@@ -156,8 +160,15 @@
   height: 7em;
 }
 .wrapper4{
-  background-color: gray;
+  padding: 1%;
+  background-image: url(images/background2.jpg);
 }
+/* footer */
+.footer-img{
+  width: 15%;
+  height: 5em;
+}
+
 /* desktop */
 @media screen and (min-width: 768px) {
  /* desktop navigator */

@@ -24,7 +24,8 @@
 
 .wrapper1{
   padding-top: 2%;
-  background-image: url(images/background1.jpg);
+  background-color: #F5F5F5;
+  /* background-image: url(images/background1.jpg); */
   /* background-repeat: no-repeat; */
   /* background-position: center; */
   width: 100%;
@@ -43,7 +44,7 @@
   color: #EC5242;
 }
 #para{
-  background-color: #D3D3D3;
+  background-color: #E8E8E8;
 }
 /* not show the nav in mobile */
 @media screen and (max-width: 768px) {
@@ -60,10 +61,16 @@
   .wrapper4{
     display: none;
   }
+  .wrapper5{
+    display: none;
+  }
+  .fornav{
+    display: none;
+  }
 }
 
 .navig{
-  background-image: url(images/background1.jpg);
+  background-color: #F5F5F5;
 }
 
 .text-prog{
@@ -238,14 +245,14 @@
     font-size: 15px;
   }
   .wrapper2{
-    padding: 6%;
+    padding: 7%;
   }
   /* featured speaker desktop */
 
   .speaker-wrap{
     display: flex;
      flex-wrap: wrap;
-     padding: 5em;
+     padding: 6em;
   }
   .speakers{
     padding: 1%;

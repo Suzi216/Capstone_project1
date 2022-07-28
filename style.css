@@ -87,7 +87,6 @@ p {
   padding-top: 2%;
 }
 
-
 /* not show the  in mobile */
 @media screen and (max-width: 768px) {
   .logo-nav {

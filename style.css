@@ -72,12 +72,10 @@
   color: red;
 }
 
-
 h5,
 span {
   font-family: lato, sans-serif;
 }
-
 
 p {
   font-family: lato, sans-serif;
@@ -137,7 +135,6 @@ p {
     display: none;
   }
 }
-
 
 .text-prog {
   color: white;

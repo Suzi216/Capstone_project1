@@ -41,18 +41,54 @@ const speakers = [
   },
 ];
 
-const images = document.getElementsByClassName('speaker-img');
-const titles = document.getElementsByClassName('title');
-const about = document.getElementsByClassName('about');
-const discription = document.getElementsByClassName('disc');
-
-const array = document.getElementsByClassName('speakers');
 function feature() {
-  for (let i = 0; i < array.length; i += 1) {
-    titles[i].innerText = speakers[i].title;
-    images[i].src = `${speakers[i].image}`;
-    about[i].innerText = `${speakers[i].text}`;
-    discription[i].innerText = `${speakers[i].description}`;
+  const wrapper = document.getElementsByClassName('wrapper3');
+  const h5 = document.createElement('h5');
+  h5.className = 'text';
+  h5.innerText = 'Featured Speakers';
+  wrapper[0].appendChild(h5);
+
+  const line = document.createElement('div');
+  line.className = 'line';
+  wrapper[0].appendChild(line);
+
+  const wrap = document.createElement('div');
+  wrap.className = 'speaker-wrap';
+
+  wrapper[0].appendChild(wrap);
+
+  for (let i = 0; i < speakers.length; i += 1) {
+    const speaker = document.createElement('section');
+    speaker.className = 'speakers';
+    wrap.appendChild(speaker);
+
+    const img = document.createElement('img');
+    img.className = 'speaker-img';
+    speaker.appendChild(img);
+    img.src = `${speakers[i].image}`;
+
+    const side = document.createElement('div');
+    side.className = 'side-info';
+    speaker.appendChild(side);
+
+    const hd = document.createElement('h5');
+    hd.className = 'title';
+    side.appendChild(hd);
+    hd.innerText = `${speakers[i].title}`;
+
+    const about = document.createElement('span');
+    about.className = 'about text-danger';
+    side.appendChild(about);
+    about.innerText = `${speakers[i].text}`;
+
+    const line1 = document.createElement('div');
+    line1.className = 'line-';
+    side.appendChild(line1);
+
+    const discription = document.createElement('p');
+    discription.className = 'disc';
+    side.appendChild(discription);
+    discription.innerText = `${speakers[i].description}`;
   }
 }
 feature();

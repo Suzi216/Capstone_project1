@@ -25,6 +25,10 @@ To get a local copy up and running follow these simple example steps.
 
 ### Install node.js
 
+
+## Live Video (if available)
+
+[live video](https://www.loom.com/share/a1c7a71d8009413aa7349265400ab450)
 ## Live Demo (if available)
 
 [live demo]()
@@ -43,7 +47,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
+- The design of this project is based from this website:[click](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 - Inspiration
 - etc
 

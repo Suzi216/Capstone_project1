@@ -7,5 +7,3 @@ ham.addEventListener('click', () => {
 x.addEventListener('click', () => {
   navbar.classList.toggle('active');
 });
-
-console.log(navbar);

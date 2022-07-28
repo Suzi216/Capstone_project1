@@ -31,7 +31,7 @@ To get a local copy up and running follow these simple example steps.
 [live video](https://www.loom.com/share/a1c7a71d8009413aa7349265400ab450)
 ## Live Demo (if available)
 
-[live demo]()
+[live demo](https://suzi216.github.io/Capstone_project1/)
 
 
 ## Authors

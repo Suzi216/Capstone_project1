@@ -117,6 +117,7 @@ p {
     font-size: 25px;
     opacity: 0.95;
     transition: 0.5s;
+    padding-bottom: 20%;
   }
 
   .navig a {
